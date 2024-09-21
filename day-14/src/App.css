@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.938);
+}
+form{
+    height: 280px;
+    width: 300px;
+    padding: 25px;
+   background-color: white;
+    text-align: center;
+}
+input{
+    border-radius: 075rem;
+    width: 200px;
+}
+button{
+    border-radius: 0.75rem;
+}

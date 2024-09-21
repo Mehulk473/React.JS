@@ -1,0 +1,11 @@
+Body{
+    text-align: center;
+    height: 100vh;
+    
+}
+.missed{
+    color:red;
+}
+.made{
+    color:green;
+}

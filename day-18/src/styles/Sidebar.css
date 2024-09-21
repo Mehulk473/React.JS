@@ -1,0 +1,63 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.hamburger {
+  font-size: 30px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar.active {
+  width: 250px; /* Sidebar width when active */
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px 15px;
+  text-align: left;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar ul li:hover {
+  background-color: #575757;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+
+.content {
+  margin-top: 100px;
+}
